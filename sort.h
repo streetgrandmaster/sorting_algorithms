@@ -31,4 +31,38 @@ void quick_sort(int *array, size_t size);
 void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
 void counting_sort(int *array, size_t size);
+
+/** 4 */
+void shell_sort(int *array, size_t size);
+
+/** 5 */
+void cocktail_sort_list(listint_t **list);
+
+/** 6 */
+void counting_sort(int *array, size_t size);
+int findmax(int *array, size_t size);
+int count(int *array, size_t size, int val);
+
+/** 7 */
+void merge_sort(int *array, size_t size);
+void merge(int *array, int low, int middle, int high, int *temp);
+void merge_sorty(int *array, int low, int high, int *temp);
+
+/** 8 */
+void heap_sort(int *array, size_t size);
+
+/** 9 */
+void radix_sort(int *array, size_t size);
+void counting_sort_r(int *array, size_t size, int pos, int *out, int *ca);
+
+/** 10 */
+void bitonic_sort(int *array, size_t size);
+void swapint(int *l, int *r);
+void b_sort(int *array, int low, int count, int dir, size_t size);
+void b_merge(int *array, int low, int count, int dir, size_t size);
+
+/** 11 */
+void quick_sort_hoare(int *array, size_t size);
+int partition_hoare(int *a, int l, int h);
+
 #endif
